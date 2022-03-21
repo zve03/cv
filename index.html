@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- trigger this with html and enter (emmet extension)-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zeger's personal site</title>
+
+  <!--  top van tabblad-->
+</head>
+
+<body>
+  <h1>Zeger</h1>
+  <!-- just type H1 and intellisense does the rest -->
+  <p>This is a paragraph p tag</p>
+  <p>
+    <em>Use emphasis instead of italics</em>
+    <strong>use strong tag for bold, not b</strong>
+  </p>
+  <p>horizontal rule (hr) to make a line below</p>
+  <hr>
+  <h3>Books and teaching as a header</h3>
+  <p>now we need to create a bullet list with ul unordered list (= bullet points) and li = list item</p>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>sublist
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </li>
+  </ul>
+  <p>now we want an ordered list (a,b,c)</p>
+  <ol>
+    <li>1</li>
+    <li>2</li>
+    <li>unordered sublist
+      <ul>
+        <li>31</li>
+        <li>32</li>
+        <li>33</li>
+      </ul>
+
+    </li>
+  </ol>
+  </ul>
+  <p><strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">finally, mess with the attributes (start, roman,...)</a></strong></p>
+  <ol type="i" start="7">
+    <li>7</li>
+    <li>8</li>
+  </ol>
+  <p>next up are images, with img and source attribute. <br />
+    they can be in same directory/there might be a link</p>
+  <ul>
+    <li>Web link by copying the image address</li>
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/f4/54/37/wilson-island.jpg" alt="Should give a photo of an island, this text if it doesn't load">
+    <p>Note: if the image should not be 'publicly findable', go to
+      'photobucket' to upload it there.</p>
+    <li>From the same directory (locally). At the same level
+      <img src="wilson-island.jpg" alt="">
+    </li>
+    <li>From the same directory but different folder <br>
+      <img src="Images/wilson-island.jpg" alt="">
+    </li>
+  </ul>
+  <hr>
+  <h3>Links & anchor tags</h3>
+  <a href="https://www.google.com/">Link to google</a>
+  <p>alternatively, you can link to your second page, you're creating as well <br>
+    Angela suggests this to be about hobbies.</p>
+  <a href="hobbies.html">Go to hobbies pages. This is a 'local' link</a>
+  <br>
+  <a href="ContactMe.html">Contact me. This is a 'local' link</a>
+  <hr>
+
+  <h3>Tables</h3>
+  <p>Use tables with 'table','tr','td'(table data) etc.</p>
+  <table cellspacing="20">
+    <thead>
+      <th>Dates</th>
+      <th>Occupation</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010</td>
+        <td>studying</td>
+      </tr>
+      <tr>
+        <td>2011-2014</td>
+        <td>something else</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <p>Note: don't style the table using HTML, rather CSS</p>
+  <hr>
+  <h3>Tables for structure</h3>
+
+  <h6>skills</h6>
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
+<hr>
+<h3>Forms</h3>
+<p>for more details, go to</p> <a href="Form.html">this form</a>
+
+</body>
+
+</html>
